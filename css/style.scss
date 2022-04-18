@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+// part1 end 
+// ----------------
+#accordion{
+    button{
+        width: 100%;
+        padding: 15px;
+        background-color: red;
+        color: black;
+    }
+    p{
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
+// part2 end 
+// --------------- 
+#tabMenu{
+    button{
+        padding: 12px;
+        background-color: black;
+        color: red;
+    }
+    p{
+        display: none;
+        &.active{
+            display: block;
+        }
+    }
+}
